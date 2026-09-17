@@ -110,3 +110,23 @@ button:hover{
     background-color: #36255c;
     transform: scale(1.2);
 }
+@media (max-width: 768px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .parent {
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  button {
+    max-width: 100%;
+  }
+}
