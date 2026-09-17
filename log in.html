@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="log in.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="parent">
+     <div class="login">
+        <h1>Log in</h1>
+        <form >
+            <input id="user" class="ll" type="text" id="name" placeholder="Enter your username" required>
+            <br>
+            <input  id="pss1" class="ll" type="password"  id="pass" placeholder="Enter your password" required><br>
+            <input class="ll" type="date" id="age" required><br>
+            <input type="submit" value="Enter" onclick="login()">
+            <input type="reset" value="Re-enter">
+        </form>
+     </div>
+     <h1 id="bet">OR</h1>
+     <button onclick="go()">Go</button>
+     <div class="sigin">
+        <h1>Sign in</h1>
+        <form>
+        <input id="sign" class="ll" type="text" placeholder="Creat an username" required><br>
+        <input class="ll" type="email" placeholder="Enter your E-mail" required><br>
+        <input  class="ll" type="tel" placeholder="Enter your phone" required><br>
+        
+        <input id="pss2" class="ll" type="password" required placeholder="Enter your password"><br>
+        
+        <select id="select" required>
+            <option  disabled selected>Enter your country</option>
+            <option >Egypt</option>
+            <option >Saudi arabic</option>
+            <option >America</option>
+            <option >United kingdom</option>
+            <option >france</option>
+            <option >spain</option>
+            <option >Ghana</option>
+            <option >Sudan</option>
+            <option >Morocco</option>
+            <option >Algeria</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit" onclick="ll()">
+        <input type="reset" value="Reset">
+        </form>
+     </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
